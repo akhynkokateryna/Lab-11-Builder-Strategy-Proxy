@@ -3,10 +3,6 @@ package task2;
 import lombok.Getter;
 import lombok.Setter;
 
-enum Gender {
-    MALE, FEMALE;
-}
-
 
 @Getter @Setter
 public class Client {
