@@ -15,7 +15,7 @@ public class MailSender {
         MailjetClient client;
         MailjetRequest request;
         MailjetResponse response;
-        client = new MailjetClient("b4603113bae9bfaf09b90c8718eb8b89", "fee0b433fbd9a882bb9fd2744e959ff4", new ClientOptions("v3.1"));
+        client = new MailjetClient("**********************", "*******************", new ClientOptions("v3.1"));
         request = new MailjetRequest(Emailv31.resource)
                 .property(Emailv31.MESSAGES, new JSONArray()
                         .put(new JSONObject()
